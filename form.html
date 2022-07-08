@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        body {
+            width: 100%;
+        }
+
+        form {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: aquamarine;
+        }
+
+        .input {
+            width: 400px;
+            height: 40px;
+            border-radius: 12px;
+        }
+
+        .input:focus {
+            color: indianred;
+        }
+    </style>
+</head>
+
+<bod<header>
+    <h1>This is Navbar of form</h1>
+    <nav>
+        <ul>
+            <li class="navbar"><a href="form.html">Form
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li class="navbar"><a href="index.html">Table
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li class="navbar"><a href="navbar.html">Navbar
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+        </ul>
+    </nav>
+    </header>y>
+
+    <h1>This is form</h1>
+    <form action="">
+        <button type="submit">Submit</button>
+        <input type="text" name="text" class="input" id=""><br>
+        <input type="email" name="email" class="input" id=""><br>
+        <input type="password" name="password" class="input" id=""><br>
+        <fieldset>
+            <legend>Facebook authentication</legend>
+            <label for="name">Name</label>
+            <input type="radio" name="label-name" id="name">
+
+            <label for="Email">Email</label>
+            <input type="radio" name="label-name" id="Email">
+            <label for="password">Checking password</label>
+            <input type="radio" name="label-name" id="password">
+        </fieldset>
+        <fieldset>
+            <legend>Checking checkbox</legend>
+            <label for="check-one">Email checkbox</label>
+            <input type="checkbox" name="" id="check-one">
+            <label for="check-two">Password checking</label>
+            <input type="checkbox" name="" id="check-two">
+        </fieldset>
+        <textarea name="" id="" cols="30" rows="10">text here</textarea>
+        <button type="submit">submit here</button>
+        <button type="reset">reset here</button>
+        <label for="youtube">You can see everything in Youtube</label>
+        <select name="youtube" id="youtube">
+            <option value="movie">Movie</option>
+            <option value="song">Song</option>
+            <option value="learn">Learn</option>
+        </select>
+    </form>
+    </body>
+
+</html>
